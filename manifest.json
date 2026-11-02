@@ -1,0 +1,262 @@
+{
+ "schema": 1,
+ "release_repo": "danpowell88/rvs-decomp-toolchain",
+ "release_tag": "toolchain-1",
+ "assets_dir": "assets",
+ "pieces": [
+  {
+   "id": "msvc71",
+   "description": "MSVC 7.1 (VC++ Toolkit 2003) CRT headers and libraries",
+   "layout": "msvc71",
+   "files_list": "files/msvc71.tsv",
+   "files_list_sha256": "82804c01d1d69491fc6d278bd7ff935068e0d637258780ca1ee23a69f68ff232",
+   "file_count": 74,
+   "bytes": 23106256,
+   "public": [
+    {
+     "id": "archaic-msvc710_sp1",
+     "format": "raw",
+     "url": "https://raw.githubusercontent.com/archaic-msvc/msvc710_sp1/cf62606064633dd8441aa2feffe34792099cc366/",
+     "files": 66,
+     "bytes": 2657812
+    },
+    {
+     "id": "archaic-msvc710",
+     "format": "raw",
+     "url": "https://raw.githubusercontent.com/archaic-msvc/msvc710/2932d76fe417b0bc49010b26d4be2e5b743cc4be/",
+     "files": 2,
+     "bytes": 7456846
+    },
+    {
+     "id": "Basilmoyh-Civ4",
+     "format": "raw",
+     "url": "https://raw.githubusercontent.com/Basilmoyh/Civ4/986d5d85ea645f1cc98c5365b7f9214840358517/",
+     "files": 1,
+     "bytes": 18618
+    }
+   ],
+   "release": {
+    "asset": "assets/msvc71.zip",
+    "sha256": "6db6690614de053515ce0624b9ef174ac915c381c29131932e7d15ae5d61ee6a",
+    "size": 3169717,
+    "files": 5,
+    "bytes": 12972980
+   }
+  },
+  {
+   "id": "msvc71-3077",
+   "description": "cl 13.10.3077 (VS .NET 2003) compiler, linker and tools: the retail build",
+   "layout": "msvc71-3077",
+   "files_list": "files/msvc71-3077.tsv",
+   "files_list_sha256": "ec12c6b06a3f489d4be2395a6b959b056b833ad58ce36df3a5f8ade9f8673ddc",
+   "file_count": 21,
+   "bytes": 7022484,
+   "public": [
+    {
+     "id": "omniblade-msvc7.0",
+     "url": "https://github.com/OmniBlade/decomp.me/releases/download/msvcwin9x/msvc7.0.tar.gz",
+     "archive_sha256": "49eba7f9f72644f6f872a4176baeac544e8b5dfb2be1f47bb4d439b1136ffeac",
+     "archive_size": 33368894,
+     "archive_name": "msvc7.0.tar.gz",
+     "files": 10,
+     "bytes": 5927936,
+     "format": "tar.gz"
+    },
+    {
+     "id": "archaic-msvc710",
+     "format": "raw",
+     "url": "https://raw.githubusercontent.com/archaic-msvc/msvc710/2932d76fe417b0bc49010b26d4be2e5b743cc4be/",
+     "files": 2,
+     "bytes": 290
+    },
+    {
+     "id": "XetPy1030-Civ4Col",
+     "format": "raw",
+     "url": "https://raw.githubusercontent.com/XetPy1030/Civ4Col/8a62b2c91ec7cc58ac900b62e782223d111ea4b7/",
+     "files": 2,
+     "bytes": 847872
+    }
+   ],
+   "release": {
+    "asset": "assets/msvc71-3077.zip",
+    "sha256": "9610cf7d6f385da070ac97f856cbc39e9bb7dd6a99edd2dc28f19cb2f6401ffa",
+    "size": 132588,
+    "files": 7,
+    "bytes": 246386
+   }
+  },
+  {
+   "id": "vc6sp5pp",
+   "description": "VC++ 6.0 SP5 + Processor Pack (cl 12.00.9044): Karma, ubi.com GS SDK, NvTriStrip, zlib",
+   "layout": "vc6sp5pp",
+   "files_list": "files/vc6sp5pp.tsv",
+   "files_list_sha256": "9b470cbd940c04e224877a9d6da8cdaac709eab13ad2de283efc2796b8cdd34e",
+   "file_count": 127,
+   "bytes": 10550057,
+   "public": [
+    {
+     "id": "omniblade-msvc6.5pp",
+     "url": "https://github.com/OmniBlade/decomp.me/releases/download/msvcwin9x/msvc6.5pp.tar.gz",
+     "archive_sha256": "0de4c5dc848d59b8af842eb157ffe8b1d24fba6621b18be67ea9932e219ce14e",
+     "archive_size": 6672558,
+     "archive_name": "msvc6.5pp.tar.gz",
+     "files": 114,
+     "bytes": 6884389,
+     "format": "tar.gz"
+    },
+    {
+     "id": "archaic-msvc600_sp5",
+     "format": "raw",
+     "url": "https://raw.githubusercontent.com/archaic-msvc/msvc600_sp5/b0b07e29108e2695eb0274c2a377a7b7d7326150/",
+     "files": 9,
+     "bytes": 3483031
+    },
+    {
+     "id": "QianNangong-VC6Ultimate",
+     "format": "raw",
+     "url": "https://raw.githubusercontent.com/QianNangong/VC6Ultimate/0c74cf644fbdd38018c8d94c9ea9f8b72782ef7c/",
+     "files": 1,
+     "bytes": 180276
+    }
+   ],
+   "release": {
+    "asset": "assets/vc6sp5pp.zip",
+    "sha256": "a37055b277309bd698916bbb3725c1d99b2310faf01c5ed0f18229b54cc8d4f5",
+    "size": 1807,
+    "files": 3,
+    "bytes": 2361
+   }
+  },
+  {
+   "id": "winsdk",
+   "description": "Windows Server 2003 SP1 Platform SDK (x86 Include and Lib)",
+   "layout": "winsdk",
+   "files_list": "files/winsdk.tsv",
+   "files_list_sha256": "046b3d0dd9b2ec6d47854b222f276d7638ab08bcebf2b994ed85d673476ee645",
+   "file_count": 278,
+   "bytes": 20679094,
+   "public": [
+    {
+     "id": "archaic-msvc710_sp1",
+     "format": "raw",
+     "url": "https://raw.githubusercontent.com/archaic-msvc/msvc710_sp1/cf62606064633dd8441aa2feffe34792099cc366/",
+     "files": 50,
+     "bytes": 3410706
+    },
+    {
+     "id": "widberg-msvc8.0",
+     "format": "raw",
+     "url": "https://raw.githubusercontent.com/widberg/msvc8.0/d6c4aa208c8345c78a9f68ba6ef911ee94c6a6e1/",
+     "files": 208,
+     "bytes": 16381542
+    },
+    {
+     "id": "XetPy1030-Civ4Col",
+     "format": "raw",
+     "url": "https://raw.githubusercontent.com/XetPy1030/Civ4Col/8a62b2c91ec7cc58ac900b62e782223d111ea4b7/",
+     "files": 2,
+     "bytes": 29810
+    },
+    {
+     "id": "kcrazy-winekit",
+     "format": "raw",
+     "url": "https://raw.githubusercontent.com/kcrazy/winekit/7948f5f42a60225d9f94930be539f0a1d6202dbc/",
+     "files": 8,
+     "bytes": 762478
+    },
+    {
+     "id": "archaic-msvc900",
+     "format": "raw",
+     "url": "https://raw.githubusercontent.com/archaic-msvc/msvc900/c9d710cef9a3dec08d7d2dca78a3b494335a5baa/",
+     "files": 2,
+     "bytes": 4138
+    }
+   ],
+   "release": {
+    "asset": "assets/winsdk.zip",
+    "sha256": "2aa63b16b3f40358850dd5a2a576a4c37f6e5e9d3571494cb3c088394e19aa8e",
+    "size": 18001,
+    "files": 8,
+    "bytes": 90420
+   }
+  },
+  {
+   "id": "dxsdk",
+   "description": "DirectX SDK headers and libraries (DX8-era)",
+   "layout": "dxsdk",
+   "files_list": "files/dxsdk.tsv",
+   "files_list_sha256": "50d903586662a73bf28cae296f7f7b53f6d07593d58c76ca234ca29d8feecb33",
+   "file_count": 33,
+   "bytes": 8315284,
+   "public": [
+    {
+     "id": "archaic-msvc710_sp1",
+     "format": "raw",
+     "url": "https://raw.githubusercontent.com/archaic-msvc/msvc710_sp1/cf62606064633dd8441aa2feffe34792099cc366/",
+     "files": 31,
+     "bytes": 8086373
+    }
+   ],
+   "release": {
+    "asset": "assets/dxsdk.zip",
+    "sha256": "578fb9121e9fbbd72437d7e8b539347430437fd282a03f9ae37cd33e78d49875",
+    "size": 34453,
+    "files": 2,
+    "bytes": 228911
+   }
+  },
+  {
+   "id": "stlport-4.5.3",
+   "description": "STLport 4.5.3 headers (used for the ubi.com GS SDK rebuild)",
+   "layout": "stlport-4.5.3",
+   "files_list": "files/stlport-4.5.3.tsv",
+   "files_list_sha256": "18fc179a15878b59852cd70d0e59213c3f6f35433a96fd792c8edaece9b09a15",
+   "file_count": 96,
+   "bytes": 814524,
+   "public": [
+    {
+     "id": "stlport-4.5.3-sourceforge",
+     "url": "https://downloads.sourceforge.net/project/stlport/STLport%20archive/STLport%204/STLport-4.5.3.tar.gz",
+     "archive_sha256": "74917eee7d57577518063b4caf7fb13577f21472fb92ecc239fc1ecf2fc9b1ec",
+     "archive_size": 739943,
+     "archive_name": "STLport-4.5.3.tar.gz",
+     "files": 96,
+     "bytes": 814524,
+     "format": "tar.gz"
+    }
+   ]
+  },
+  {
+   "id": "implibs",
+   "description": "Import-library definitions for the SND DLL twins and vorbisfile",
+   "layout": ".",
+   "files_list": "files/implibs.tsv",
+   "files_list_sha256": "33676e98ab0b33938831f7ddde03f79f57d5d9983c2f0a8ecde7c4d28e798d4d",
+   "file_count": 1,
+   "bytes": 6372,
+   "release": {
+    "asset": "assets/implibs.zip",
+    "sha256": "8d90ca9f920205560e12f43578d618d6923d1f651fa20540db06f515c249b177",
+    "size": 1392,
+    "files": 1,
+    "bytes": 6372
+   }
+  },
+  {
+   "id": "vendor-nvdxt",
+   "description": "NVIDIA nvDXT headers (dxtlib.h, nvdxt_options.h)",
+   "layout": "vendor/nvdxt",
+   "files_list": "files/vendor-nvdxt.tsv",
+   "files_list_sha256": "695ca7f06c7eb81a80b55e6d1e8bedb306083866791864ccc0d009ac2bf05929",
+   "file_count": 2,
+   "bytes": 7346,
+   "release": {
+    "asset": "assets/vendor-nvdxt.zip",
+    "sha256": "06044ee72c8dd41984c1530c5e24122a98217fc54dccdd47dda984cdb8fac06b",
+    "size": 3169,
+    "files": 2,
+    "bytes": 7346
+   }
+  }
+ ]
+}
